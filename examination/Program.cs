@@ -13,6 +13,9 @@ for (int i = 0; i < array.Length; i++)
 {three[count] = array[i];
 count++;}}}
 
+void PrintThree(string[] three)
+{for(int i = 0; i < three.Length; i++)
+{Console.Write($"{three[i]} ");}}
 
 string[] array = new string[5];
 string[] three = new string[array.Length];
@@ -21,3 +24,5 @@ FillMass(array);
 PrintMass(array);
 Console.Write("--> ");
 ThreeMass(array,three);
+PrintThree(three);
+Console.WriteLine();
