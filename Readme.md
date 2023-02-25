@@ -1,5 +1,15 @@
 ## Описание
 
+1. Рисую блок схему:
+
+![](CheckToWork1.drawio.png) 
+
+2. Создаю массивы:
+
+*string[] array = new string[5];* с пятью строками и 
+
+*string[] three = new string[array.Length];*. 
+
 3. Делаю метод FillMass, где прохожу циклом по массиву *array* и заполняем его вводом с клавиатуры *array[i] = Console.ReadLine()*.
 
 4. Делаю метод PrintMass, где прохожу циклом по массиву *array* и вывожу его строки в консоль.
